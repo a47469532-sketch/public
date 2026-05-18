@@ -27,7 +27,6 @@ def check_ticketlink():
     send_telegram(test_message)
     
     # 실제 티켓링크 API 고정 주소 (추후 실제 ID 확보 시 수정 가능하도록 베이스 세팅)
-    # 현재 단축 주소 우회를 위해 임시로 상태 코드가 성공하도록 더미 데이터 처리
     print("📢 2단계: 티켓링크 서버 접속을 시도합니다.")
     
     headers = {
