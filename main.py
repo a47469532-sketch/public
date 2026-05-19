@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # ================= [ 설정 부분 ] =================
-TOKEN = "8750855390:AAFPNLvpqrDWPfgfz2MvJQDJox2856yyHnc"
+TOKEN = "8750855390:AAGWbSaIOxkE889ZeAahy1Ng2GpYReM5-4g"
 CHAT_ID = "@markpark1234"
 TARGET_URL = "https://naver.me/xkqgcVNw"
 # =================================================
