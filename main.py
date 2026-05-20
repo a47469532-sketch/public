@@ -47,3 +47,9 @@ if __name__ == "__main__":
     print("==============================================")
     CHAT_ID = "@markpark1234"
     check_ticketlink()
+    # 오전 9시와 오후 6시에 주기적으로 생존 신고 톡 보내기
+import datetime
+now = datetime.datetime.now()
+if (now.hour == 9 or now.hour == 18) and now.minute < 5:
+    send_telegram_message("🤖 현재 감시 로봇 정상 작동 중입니다! (아직 취소표 없음)")
+
